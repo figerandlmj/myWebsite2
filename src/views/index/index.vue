@@ -328,6 +328,10 @@
 </style>
 <style lang="less" scoped>
   .elCarousel{
+    width: 100%;
+    img{
+      width: 100%;
+    }
     .con{
       position: absolute;
       top: 0;
@@ -477,6 +481,7 @@
           .img{
             height: 100%;
             background: url(../../assets/imgs/dianshangdianchu.png) no-repeat;
+            background-size: 100% 100%;
           }
         }
       }
@@ -488,6 +493,7 @@
           .img{
             height: 100%;
             background: url(../../assets/imgs/waimaodianchu.png) no-repeat;
+            background-size: 100% 100%;
           }
         }
       }

@@ -16,6 +16,9 @@ Vue.config.productionTip = false
 
 Vue.use(ElementUI);
 
+// axios , 为什么 IE 浏览器不识别(IE9+),IE 整个家族都不支持 promise
+require("es6-promise").polyfill();
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

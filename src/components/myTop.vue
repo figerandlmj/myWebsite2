@@ -3,7 +3,7 @@
   <div class="container">
     <template v-if="userMobile">
       <div class="signOut">
-        <span class="userMobile">{{userMobile.replace(/^(\w{3})(\w{4})(\w*)$/, '$1****$3')}}</span>
+        <span class="cursor userMobile" @click="linkToIndex">{{userMobile.replace(/^(\w{3})(\w{4})(\w*)$/, '$1****$3')}}</span>
         <span class="cursor" @click="signOut">退出</span>
       </div>
     </template>
@@ -52,6 +52,12 @@
 
     },
     methods: {
+      // 点击跳转首页
+      linkToIndex(){
+        this.$router.push({
+          name: 'credit',
+        });
+      },
       // 退出登录
       signOut() {
         // exitLogin({username: this.userMobile}).then(response => {

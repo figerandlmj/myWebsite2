@@ -9,7 +9,7 @@
     </div> -->
     <div class="main">
       <div class="bg">
-        <img src="../../assets/imgs/login_bg.png" alt="">
+        <img src="../../assets/imgs/loginBg.jpg" alt="">
       </div>
       <div class="container">
         <!-- 短信验证码登录 -->
@@ -359,7 +359,12 @@
                   localStorage.setItem('userMobile', response.data.username);
                   localStorage.setItem('lastlogintime', response.data.lastlogintime);
                   this.$message('登录成功');
-                  location.href = '#' + (this.$route.query.redirect || '/')
+                  // location.href = '#' + (this.$route.query.redirect || '/')
+
+                  this.$router.push({
+                    name: 'credit',
+                  });
+
                   // this.$store.dispatch('login', response.data).then(() => {
                   //   this.$message('登录成功');
                   //   location.href = '#' + (this.$route.query.redirect || '/')
@@ -484,6 +489,7 @@
     padding: 30px 30px 20px;
     margin-top: 64px;
     background: #fff;
+    box-shadow: 0 0px 6px #efc88c;
     .title{
       margin-bottom: 20px;
       font-size: 18px;

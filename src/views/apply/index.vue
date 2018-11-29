@@ -596,7 +596,10 @@
                 const code = response.code;
                 if(code === 200) {
                   this.$message('申请成功');
-                  location.href = '#' + (this.$route.query.redirect || '/')
+                  // location.href = '#' + (this.$route.query.redirect || '/')
+                  this.$router.push({
+                    name: 'credit',
+                  });
                 }else{
                   console.log(response.msg);
                 }
