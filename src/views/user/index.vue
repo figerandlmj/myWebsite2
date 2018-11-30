@@ -232,9 +232,12 @@
         display: inline-block;
         padding: 6px 14px;
         font-size: 14px;
-        color: #fff;
-        border-radius: 4px;
-        background: #169BD5;
+        /*color: #fff;*/
+        /*border-radius: 4px;*/
+        /*background: #169BD5;*/
+        color: #169BD5;
+        background: #fff;
+        border: 1px solid #169BD5;
       }
     }
   }
