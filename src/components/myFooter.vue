@@ -25,13 +25,13 @@
           <img src="../assets/imgs/erweima.png" alt="">
           <span>去哪贷微信</span>
         </div>
-        <ul>
+        <!-- <ul>
           <li></li>
           <li></li>
           <li></li>
           <li></li>
           <li></li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
@@ -121,6 +121,7 @@
       flex-direction: column;
       align-items: center;
       margin-top: 90px;
+      margin-right: 150px;
       .erweima{
         img{
           display: inline-block;
@@ -131,51 +132,51 @@
         font-size: 14px;
         color: #7F7F7F;
       }
-      ul{
-        margin-top: 40px;
-      }
-      li{
-        display: inline-block;
-        height: 28px;
-        &:nth-of-type(n+2){
-          margin-left: 10px;
-        }
-        &:nth-of-type(1){
-          width: 84px;
-          background: url(../assets/imgs/chengxinmoren.png) no-repeat;
-          &:hover{
-            background: url(../assets/imgs/chengxinwangzhandianchu.png) no-repeat;
-          }
-        }
-        &:nth-of-type(2){
-          width: 86px;
-          background: url(../assets/imgs/360moren.png) no-repeat;
-          &:hover{
-            background: url(../assets/imgs/360dianchu.png) no-repeat;
-          }
-        }
-        &:nth-of-type(3){
-          width: 84px;
-          background: url(../assets/imgs/beianmoren.png) no-repeat;
-          &:hover{
-            background: url(../assets/imgs/beiandianchu.png) no-repeat;
-          }
-        }
-        &:nth-of-type(4){
-          width: 68px;
-          background: url(../assets/imgs/nortonmoren.png) no-repeat;
-          &:hover{
-            background: url(../assets/imgs/nortondianchu.png) no-repeat;
-          }
-        }
-        &:nth-of-type(5){
-          width: 116px;
-          background: url(../assets/imgs/gonganmoren.png) no-repeat;
-          &:hover{
-            background: url(../assets/imgs/gongandianchu.png) no-repeat;
-          }
-        }
-      }
+      // ul{
+      //   margin-top: 40px;
+      // }
+      // li{
+      //   display: inline-block;
+      //   height: 28px;
+      //   &:nth-of-type(n+2){
+      //     margin-left: 10px;
+      //   }
+      //   &:nth-of-type(1){
+      //     width: 84px;
+      //     background: url(../assets/imgs/chengxinmoren.png) no-repeat;
+      //     &:hover{
+      //       background: url(../assets/imgs/chengxinwangzhandianchu.png) no-repeat;
+      //     }
+      //   }
+      //   &:nth-of-type(2){
+      //     width: 86px;
+      //     background: url(../assets/imgs/360moren.png) no-repeat;
+      //     &:hover{
+      //       background: url(../assets/imgs/360dianchu.png) no-repeat;
+      //     }
+      //   }
+      //   &:nth-of-type(3){
+      //     width: 84px;
+      //     background: url(../assets/imgs/beianmoren.png) no-repeat;
+      //     &:hover{
+      //       background: url(../assets/imgs/beiandianchu.png) no-repeat;
+      //     }
+      //   }
+      //   &:nth-of-type(4){
+      //     width: 68px;
+      //     background: url(../assets/imgs/nortonmoren.png) no-repeat;
+      //     &:hover{
+      //       background: url(../assets/imgs/nortondianchu.png) no-repeat;
+      //     }
+      //   }
+      //   &:nth-of-type(5){
+      //     width: 116px;
+      //     background: url(../assets/imgs/gonganmoren.png) no-repeat;
+      //     &:hover{
+      //       background: url(../assets/imgs/gongandianchu.png) no-repeat;
+      //     }
+      //   }
+      // }
     }
   }
   // .myFooter{
